@@ -10,6 +10,9 @@ Flight reservation system using java/javafx/json
 # Main menu :
 ![Image](https://github.com/user-attachments/assets/eeb6cad3-5b1c-4b0b-bb19-da6a1ada8852)
 
+# Search Flights menu :
+![Image](https://github.com/user-attachments/assets/be0ea782-c454-4d88-89f2-ece0cabff4a2)
+
 # Compare Flights menu :
 ![Image](https://github.com/user-attachments/assets/cb2ccf8a-0c1b-4306-9a85-fe708801aefa)
 
@@ -27,3 +30,15 @@ Flight reservation system using java/javafx/json
 
 # User Confirmation Page :
 ![Image](https://github.com/user-attachments/assets/db44fef8-0031-4661-bf1e-7cd87a016318)
+
+# Admin dashboard : 
+![Image](https://github.com/user-attachments/assets/5557376f-f676-4748-b584-138e65bfa68f)
+
+# Admin Airpots data modification page :
+![Image](https://github.com/user-attachments/assets/f709362c-50d0-4af1-adeb-1c7574a84668)
+
+# Admin's Searh menu : 
+![Image](https://github.com/user-attachments/assets/0370f6cd-8c5d-434b-a392-571cc72cc5e2)
+
+# Admin's profile page : 
+![Image](https://github.com/user-attachments/assets/2d8519c8-d7c2-4dca-bc07-d27f07b4b65d)
