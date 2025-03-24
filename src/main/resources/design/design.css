@@ -1,0 +1,261 @@
+.white-bg {
+    -fx-background-color: #fff;
+
+}
+
+.radius {
+
+    -fx-background-radius: 12px;
+
+}
+
+.textfield-1 {
+
+    -fx-border-radius: 7px;
+    -fx-border-color: #000;
+    -fx-border-width: 0.3px;
+    -fx-font-family: Tahoma;
+}
+
+.textfield-1:focused {
+
+    -fx-border-color: linear-gradient(to bottom right, #58cdcd, #306090);
+    -fx-border-width: 1.3px;
+
+}
+
+.btn-1 {
+    -fx-background-color: linear-gradient(to bottom right, #58cdcd, #306090);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+
+}
+
+.btn-1:hover {
+    -fx-background-color: linear-gradient(to bottom right, #8de2e2, #5c86af);
+
+}
+
+.center{
+
+    -fx-alignment: center;
+}
+
+.btn-menu {
+
+    -fx-text-fill: #fff;
+    -fx-background-color: linear-gradient(to bottom,#306090,#306080);
+    -fx-border-width: 0.7px;
+    -fx-cursor: hand;
+    -fx-font-weight: 700;
+    -fx-font-size: 17px;
+    -fx-border-radius: 50px;
+     -fx-border-color: transparent;
+        -fx-border-width: 2px;
+        -fx-effect:dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0.5, 0, 1);
+}
+
+.btn-menu:hover {
+
+    -fx-opacity:0.8;
+}
+
+.btn-menu:pressed {
+    -fx-background-color: #014b8a;
+    -fx-effect: none;
+    -fx-translate-y: 2px;
+        -fx-opacity:1.1;
+
+}
+
+.label-account-menu {
+    -fx-text-fill: #fff;
+    -fx-background-color: linear-gradient(to bottom right,#306090, #306090);
+     -fx-font-size: 14px;
+}
+
+.label-title{
+-fx-font-family: Tahoma;
+-fx-font-size: 40px;
+
+}
+
+.menu{
+
+    -fx-background-color: linear-gradient(to bottom,#306090,#306090);
+
+
+}
+
+.search-input{
+
+    -fx-background-radius:20px;
+    -fx-prompet-text-fill:#d4cee3;
+
+}
+
+.logout-btn{
+    -fx-background-color: #ff4d4d;
+    -fx-opacity:0.8;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+    -fx-effect:dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0.5, 0, 1);
+}
+
+.logout-btn:hover{
+    -fx-background-color: #f2293a;
+    -fx-opacity:1;
+}
+
+.logout-btn:pressed {
+    -fx-background-color: #cc0000;
+    -fx-effect: none;
+    -fx-translate-y: 2px;
+}
+
+.user-icon{
+
+    -fx-text-color: linear-gradient(to bottom right,#306090, #306090);
+}
+
+.user-icon:hover{
+
+ -fx-text-color: linear-gradient(to bottom,#306090, #58cdcd);
+
+}
+
+.user-icon:hover {
+     -fx-translate-y: -2px;
+     -fx-effect: dropshadow(gaussian, rgba(0, 0, 170, 0.6), 8, 0, 0, 4);
+}
+
+.container{
+-fx-background-color: rgba( 255,255,255,1);
+-fx-background-radius: 12;
+}
+
+.menu-img{
+     -fx-background-radius: 30;
+     -fx-border-radius: 30;
+     -fx-border-color: black;
+     -fx-padding: 10;
+
+}
+
+.search:hover {
+
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0, 0, 4);
+}
+
+.user-icon:hover {
+
+     -fx-translate-y: -2px;
+     -fx-effect: dropshadow(gaussian, rgba(0, 0, 170, 0.6), 8, 0, 0, 4);
+
+}
+
+
+.mainplane_img {
+
+    -fx-transition: transform 10s;
+}
+.mainplane_img:hover {
+
+    -fx-scale-x:1.1;
+    -fx-scale-y:1.1;
+}
+.shadow{
+-fx-effect : dropShadow( three-pass-box , rgba(0,0,0,0.3) ,10.0 ,0.0, 0.0, 10.0);
+}
+.aline {
+
+     -fx-background-color: transparent;
+     -fx-border-color: rgba(0,0,0,0.5);
+     -fx-border-width: 1.2px;
+ }
+.font-ta{
+
+ -fx-font-family:"Baloo Tamma 2 SemiBold";
+
+ }
+
+ .table-view{
+    -fx-border-radius:8px;
+    -fx-border-color: #306090;
+    -fx-text-color: white;
+    -fx-padding: 0;
+
+ }
+.table-view .column-header-background{
+
+
+ -fx-background-color: linear-gradient(to bottom,#306090, #306090);
+ -fx-background-insets: 0 0 0 0;
+ -fx-background-radius: 8px 8px 0 0;
+
+ }
+
+ .table-view .column-header{
+
+
+    -fx-background-color: linear-gradient(to bottom,#306090, #306090);
+
+ }
+
+ .table-view .column-header, .filter{
+    -fx-background-color: transparent;
+ }
+
+ .table-view .column-header .label{
+ -fx-text-fill: #fff;
+ }
+
+ .next-btn{
+     -fx-background-color: #608BC1;
+     -fx-text-fill: white;
+     -fx-font-size: 12px;
+     -fx-font-weight: bold;
+     -fx-cursor: hand;
+     -fx-border-color: transparent;
+     -fx-border-width: 2px;
+     -fx-effect:dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0.5, 0, 1);
+ }
+
+ .next-btn:hover{
+     -fx-background-color: #133E87;
+     -fx-opacity:0.8;
+ }
+
+ .next-btn:pressed {
+     -fx-background-color:#091057;
+     -fx-effect: none;
+     -fx-translate-y:2px;
+        -fx-opacity:1;
+ }
+
+
+ .text-fieldd{
+
+      -fx-border-radius: 5px;
+      -fx-background-color: white;
+      -fx-text-fill: #333333;
+      -fx-border-width: 2px;
+      -fx-border-color:  #76a8c4;
+      -fx-focus-color: #4CAF50;
+  }
+
+  .text-fieldd:hover {
+      -fx-background-color: #f0f0f0;
+      -fx-border-color: #0A3981;
+  }
+
+  .text-fieldd:focused {
+
+      -fx-background-color: #ffffff;
+      -fx-border-color:     #1F509A;
+  }

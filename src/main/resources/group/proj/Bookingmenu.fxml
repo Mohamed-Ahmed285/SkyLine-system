@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1200.0" styleClass="body" stylesheets="@../../style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group.proj.BookingmenuController">
+   <children>
+      <Pane fx:id="Flight_booking" prefHeight="450.0" prefWidth="1200.0">
+         <children>
+            <ImageView fitHeight="472.0" fitWidth="1213.0" layoutX="-1.0" layoutY="-55.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 0.8; -fx-smooth: 3;">
+               <image>
+                  <Image url="@../../images/gary-lopater-dOOGrK3zcUc-.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="45.0" layoutY="37.0" mnemonicParsing="false" onAction="#to_menu" style="-fx-background-color: transperct;">
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" size="3.3em" />
+               </graphic>
+            </Button>
+            <Pane layoutX="198.0" layoutY="225.0" prefHeight="357.0" prefWidth="813.0" styleClass="boxcontainer" stylesheets="@../../style.css">
+               <children>
+                  <TextField fx:id="from_city" layoutX="322.0" layoutY="102.0" maxHeight="29.0" prefHeight="29.0" prefWidth="200.0" promptText="From" styleClass="text-fieldd" />
+                  <TextField fx:id="to_city" layoutX="322.0" layoutY="172.0" prefHeight="23.0" prefWidth="200.0" promptText="To" styleClass="text-fieldd" />
+                  <Label alignment="CENTER" layoutX="214.0" layoutY="109.0" prefWidth="85.0" text="Departure City :">
+                     <font>
+                        <Font name="Tahoma" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="214.0" layoutY="179.0" prefWidth="85.0" text="Arrival City :">
+                     <font>
+                        <Font name="Tahoma" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="73.0" layoutY="32.0" text="Book A flight:">
+                     <font>
+                        <Font name="Tahoma" size="27.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="flight_num" layoutX="322.0" layoutY="242.0" prefHeight="29.0" prefWidth="200.0" promptText="Flight Number" styleClass="text-fieldd" />
+                  <Label alignment="CENTER" layoutX="214.0" layoutY="249.0" prefWidth="85.0" text="Flight Number:">
+                     <font>
+                        <Font name="Tahoma" size="12.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="661.0" layoutY="272.0" mnemonicParsing="false" onAction="#on_next_btn_click" prefHeight="30.0" prefWidth="64.0" style="-fx-background-radius: 5;" styleClass="next-btn" text="Next" />
+                  <Label fx:id="warning_text" alignment="CENTER" layoutX="302.0" layoutY="305.0" prefHeight="23.0" prefWidth="200.0" textFill="RED">
+                     <font>
+                        <Font name="Tahoma" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

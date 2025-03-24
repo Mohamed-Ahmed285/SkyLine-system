@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="401.0" stylesheets="@../../style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group.proj.ProfileAdmin">
+   <children>
+      <Pane layoutY="-73.0" prefHeight="693.0" prefWidth="401.0">
+         <children>
+            <ImageView fitHeight="273.0" fitWidth="407.0" layoutX="-3.0" layoutY="-27.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 0.8;">
+               <image>
+                  <Image url="@../../images/mountain-white-clouds-daytime.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="15.0" layoutY="88.0" mnemonicParsing="false" onAction="#to_Admin_menu" style="-fx-background-color: transparent;">
+               <graphic>
+                  <FontAwesomeIcon fill="#fffafa" glyphName="ARROW_LEFT" selectionFill="RED" size="2.5em" />
+               </graphic>
+            </Button>
+            <Pane layoutY="172.0" prefHeight="521.0" prefWidth="401.0" styleClass="aboxcontainer" stylesheets="@../../style.css">
+               <children>
+                  <ImageView fitHeight="149.0" fitWidth="149.0" layoutX="125.5" layoutY="-60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/profile.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER" layoutX="65.0" layoutY="126.0" prefHeight="333.0" prefWidth="271.0" spacing="35.0">
+                     <children>
+                        <Pane>
+                           <children>
+                              <TextField fx:id="id_field" alignment="CENTER" editable="false" layoutX="120.0" layoutY="2.0" styleClass="nohover" text="1" />
+                              <Label alignment="CENTER" prefWidth="103.0" style="-fx-opacity: 0.6;" text="ID:">
+                                 <font>
+                                    <Font name="Baloo Tamma 2 SemiBold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane>
+                           <children>
+                              <TextField fx:id="email_field" alignment="CENTER" editable="false" layoutX="120.0" layoutY="2.0" styleClass="nohover" text="example@test.com" />
+                              <Label alignment="CENTER" prefWidth="103.0" style="-fx-opacity: 0.6;" text="Email:">
+                                 <font>
+                                    <Font name="Baloo Tamma 2 SemiBold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane>
+                           <children>
+                              <TextField fx:id="phone_field" alignment="CENTER" editable="false" layoutX="120.0" layoutY="2.0" styleClass="nohover" text="0000 000 0000" />
+                              <Label alignment="CENTER" prefWidth="103.0" style="-fx-opacity: 0.6;" text="Phone Number:">
+                                 <font>
+                                    <Font name="Baloo Tamma 2 SemiBold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane>
+                           <children>
+                              <TextField fx:id="name_field" alignment="CENTER" editable="false" layoutX="120.0" layoutY="2.0" styleClass="nohover" text="MyUser" />
+                              <Label alignment="CENTER" prefWidth="103.0" style="-fx-opacity: 0.6;" text="User Name:">
+                                 <font>
+                                    <Font name="Baloo Tamma 2 SemiBold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane>
+                           <children>
+                              <Label alignment="CENTER" prefWidth="103.0" style="-fx-opacity: 0.6;" text="Password:">
+                                 <font>
+                                    <Font name="Baloo Tamma 2 SemiBold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <PasswordField fx:id="pass_field" alignment="CENTER" editable="false" layoutX="121.0" layoutY="3.0" promptText="aaaaaa" text="aaaaaa" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
