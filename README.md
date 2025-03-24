@@ -43,7 +43,7 @@ Flight reservation system using java/javafx/json
 # Admin Airpots data modification page :
 ![Image](https://github.com/user-attachments/assets/f709362c-50d0-4af1-adeb-1c7574a84668)
 
-# Admin's Searh menu : 
+# Admin's Customeers data menu : 
 ![Image](https://github.com/user-attachments/assets/0370f6cd-8c5d-434b-a392-571cc72cc5e2)
 
 # Admin's profile page : 
