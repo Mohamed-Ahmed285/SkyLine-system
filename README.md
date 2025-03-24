@@ -34,6 +34,12 @@ Flight reservation system using java/javafx/json
 # Admin dashboard : 
 ![Image](https://github.com/user-attachments/assets/5557376f-f676-4748-b584-138e65bfa68f)
 
+# Admin's menu : 
+![Image](https://github.com/user-attachments/assets/fad839be-bba6-4930-8733-5fd7e3955264)
+
+# Admin Flights data modification page :
+![Image](https://github.com/user-attachments/assets/90efd6b7-f952-46dd-8501-82926fb9fb9f)
+
 # Admin Airpots data modification page :
 ![Image](https://github.com/user-attachments/assets/f709362c-50d0-4af1-adeb-1c7574a84668)
 
