@@ -1,4 +1,4 @@
-# flight-reservation-system
+# Sky Line
 Flight reservation system using java/javafx/json
 
 # loginPage :
